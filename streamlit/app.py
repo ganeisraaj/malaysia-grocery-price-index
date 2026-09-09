@@ -15,25 +15,26 @@ PENINSULAR = [
 BASKET = [
     "Ayam bersih 1kg",
     "Telur ayam Gred A (30 biji)",
-    "Beras 10kg",
+    "Beras Super Cap Rambutan 5% Import, 10kg",
     "Minyak masak 1kg",
     "Gula putih 1kg",
     "Ikan kembung 1kg",
     "Kangkung 1kg",
     "Tomato 1kg",
     "Bawang besar 1kg",
-    "Cili merah 1kg",
+    "Cili merah minyak, 1kg",
 ]
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv(APP_DIR / "basket_aggregated.csv")
-    return df
+    basket = pd.read_csv(APP_DIR / "basket_aggregated.csv")
+    items = pd.read_csv(APP_DIR / "item_national_aggregated.csv")
+    return basket, items
 
-df = load_data()
+basket_df, item_df = load_data()
 
-df22 = df[df["year"]==2022]
-df26 = df[df["year"]==2026]
+df22 = basket_df[basket_df["year"]==2022]
+df26 = basket_df[basket_df["year"]==2026]
 
 # Basket totals by state
 def basket_totals(df, states):
@@ -52,25 +53,13 @@ comp["Naik (RM)"] = (comp["Aug 2026 (RM)"] - comp["Aug 2022 (RM)"]).round(2)
 comp["Naik (%)"] = (comp["Naik (RM)"] / comp["Aug 2022 (RM)"] * 100).round(1)
 comp = comp.sort_values("Naik (RM)", ascending=False).round(2)
 
-# Item level national
-item_comp = []
-for item in BASKET:
-    p22 = df22[df22["item"]==item]["price"].median()
-    p26 = df26[df26["item"]==item]["price"].median()
-    item_comp.append({
-        "item": item,
-        "Aug 2022 (RM)": round(p22, 2),
-        "Aug 2026 (RM)": round(p26, 2),
-        "change_rm": round(p26-p22, 2),
-        "change_pct": round((p26-p22)/p22*100, 1)
-    })
-item_df = pd.DataFrame(item_comp).sort_values("change_pct", ascending=False)
-
 ## App
 st.title("🛒 Malaysia Grocery Price Index")
 st.markdown(
     "How much more does a standard Malaysian grocery basket cost in August 2026 vs August 2022? "
-    "Based on **2.6 million price observations** collected by KPDN across 13 Peninsular Malaysian states."
+    "Based on **4.6 million KPDN PriceCatcher records** from August 2022 and August 2026, "
+    "across 13 Peninsular states and federal territories. "
+    "This is a custom basket analysis, not an official inflation index."
 )
 
 national_22 = comp["Aug 2022 (RM)"].mean()
@@ -104,7 +93,10 @@ st.dataframe(
 st.divider()
 
 st.header("🧺 By Item — What got more expensive?")
-st.markdown("**4 items are government price-controlled** — minyak masak, gula, ikan kembung, and kangkung. Their prices have not moved.")
+st.markdown(
+    "Some items in this basket showed little or no price change over this period. "
+    "The basket includes controlled or subsidised staples such as 1kg packet cooking oil and refined white sugar."
+)
 
 fig2, ax2 = plt.subplots(figsize=(10, 6))
 item_sorted = item_df.sort_values("change_pct")
@@ -136,10 +128,12 @@ selected_state = st.selectbox("Select a state", PENINSULAR)
 state_22 = df22[df22["state"]==selected_state].set_index("item")["price"]
 state_26 = df26[df26["state"]==selected_state].set_index("item")["price"]
 
+state_items = list(state_22.index.union(state_26.index))
+
 state_df = pd.DataFrame({
-    "Item": BASKET,
-    "Aug 2022 (RM)": [state_22.get(k, np.nan) for k in BASKET],
-    "Aug 2026 (RM)": [state_26.get(k, np.nan) for k in BASKET],
+    "Item": state_items,
+    "Aug 2022 (RM)": [state_22.get(k, np.nan) for k in state_items],
+    "Aug 2026 (RM)": [state_26.get(k, np.nan) for k in state_items],
 })
 state_df["Change (RM)"] = (state_df["Aug 2026 (RM)"] - state_df["Aug 2022 (RM)"]).round(2)
 state_df["Change (%)"] = (state_df["Change (RM)"] / state_df["Aug 2022 (RM)"] * 100).round(1)
@@ -148,15 +142,19 @@ total_22 = state_df["Aug 2022 (RM)"].sum()
 total_26 = state_df["Aug 2026 (RM)"].sum()
 
 col1, col2, col3 = st.columns(3)
-col1.metric(f"Basket Aug 2022", f"RM{total_22:.2f}")
-col2.metric(f"Basket Aug 2026", f"RM{total_26:.2f}")
-col3.metric("Total increase", f"+RM{total_26-total_22:.2f}", f"+{(total_26-total_22)/total_22*100:.1f}%")
+col1.metric("Basket Aug 2022", f"RM{total_22:.2f}")
+col2.metric("Basket Aug 2026", f"RM{total_26:.2f}")
+col3.metric("Total increase", f"+RM{total_26-total_22:.2f}",
+            f"+{(total_26-total_22)/total_22*100:.1f}%")
 
 st.dataframe(state_df, hide_index=True, use_container_width=True)
 
 st.caption(
-    "Data: KPDN PriceCatcher, August 2022 and August 2026. "
-    "Prices shown are median values across all premises in each state. "
-    "East Malaysia excluded due to incomplete beras data. "
-    "Price-controlled items show 0% change by policy."
+    "Data: KPDN PriceCatcher via data.gov.my, August 2022 and August 2026. "
+    "Prices are median values from raw PriceCatcher observations. "
+    "State basket totals use median price per item per state. "
+    "National item figures use median across all raw observations. "
+    "Sabah, Sarawak and Labuan excluded: the selected 10kg rice item did not provide "
+    "complete comparable coverage across both periods. "
+    "This is a custom basket analysis, not an official inflation measure."
 )
