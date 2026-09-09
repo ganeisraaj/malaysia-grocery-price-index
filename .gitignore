@@ -1,4 +1,6 @@
 data/
+streamlit/pricecatcher_2022-08.csv
+streamlit/pricecatcher_2026-08.csv
 __pycache__/
 .ipynb_checkpoints/
 *.pyc

@@ -1,0 +1,310 @@
+state,price,item,year
+Johor,8.0,Ayam bersih 1kg,2022
+Kedah,8.49,Ayam bersih 1kg,2022
+Kelantan,7.895,Ayam bersih 1kg,2022
+Melaka,8.49,Ayam bersih 1kg,2022
+Negeri Sembilan,8.49,Ayam bersih 1kg,2022
+Pahang,8.09,Ayam bersih 1kg,2022
+Perak,8.5,Ayam bersih 1kg,2022
+Perlis,8.0,Ayam bersih 1kg,2022
+Pulau Pinang,9.4,Ayam bersih 1kg,2022
+Sabah,11.3,Ayam bersih 1kg,2022
+Sarawak,9.8,Ayam bersih 1kg,2022
+Selangor,8.49,Ayam bersih 1kg,2022
+Terengganu,8.2,Ayam bersih 1kg,2022
+W.P. Kuala Lumpur,8.5,Ayam bersih 1kg,2022
+W.P. Labuan,11.3,Ayam bersih 1kg,2022
+W.P. Putrajaya,8.1,Ayam bersih 1kg,2022
+Johor,13.5,Telur ayam Gred A (30 biji),2022
+Kedah,13.5,Telur ayam Gred A (30 biji),2022
+Kelantan,13.5,Telur ayam Gred A (30 biji),2022
+Melaka,13.5,Telur ayam Gred A (30 biji),2022
+Negeri Sembilan,13.5,Telur ayam Gred A (30 biji),2022
+Pahang,13.5,Telur ayam Gred A (30 biji),2022
+Perak,13.5,Telur ayam Gred A (30 biji),2022
+Perlis,13.5,Telur ayam Gred A (30 biji),2022
+Pulau Pinang,13.5,Telur ayam Gred A (30 biji),2022
+Sabah,15.3,Telur ayam Gred A (30 biji),2022
+Sarawak,14.1,Telur ayam Gred A (30 biji),2022
+Selangor,13.5,Telur ayam Gred A (30 biji),2022
+Terengganu,13.5,Telur ayam Gred A (30 biji),2022
+W.P. Kuala Lumpur,13.5,Telur ayam Gred A (30 biji),2022
+W.P. Putrajaya,13.5,Telur ayam Gred A (30 biji),2022
+Johor,28.99,Beras 10kg,2022
+Kedah,28.0,Beras 10kg,2022
+Kelantan,30.9,Beras 10kg,2022
+Melaka,28.99,Beras 10kg,2022
+Negeri Sembilan,28.99,Beras 10kg,2022
+Pahang,29.5,Beras 10kg,2022
+Perak,28.99,Beras 10kg,2022
+Perlis,28.0,Beras 10kg,2022
+Pulau Pinang,28.9,Beras 10kg,2022
+Selangor,30.0,Beras 10kg,2022
+Terengganu,29.99,Beras 10kg,2022
+W.P. Kuala Lumpur,29.9,Beras 10kg,2022
+W.P. Putrajaya,31.9,Beras 10kg,2022
+Johor,2.5,Minyak masak 1kg,2022
+Kedah,2.5,Minyak masak 1kg,2022
+Kelantan,2.5,Minyak masak 1kg,2022
+Melaka,2.5,Minyak masak 1kg,2022
+Negeri Sembilan,2.5,Minyak masak 1kg,2022
+Pahang,2.5,Minyak masak 1kg,2022
+Perak,2.5,Minyak masak 1kg,2022
+Perlis,2.5,Minyak masak 1kg,2022
+Pulau Pinang,2.5,Minyak masak 1kg,2022
+Sabah,2.5,Minyak masak 1kg,2022
+Sarawak,2.5,Minyak masak 1kg,2022
+Selangor,2.5,Minyak masak 1kg,2022
+Terengganu,2.5,Minyak masak 1kg,2022
+W.P. Kuala Lumpur,2.5,Minyak masak 1kg,2022
+W.P. Labuan,2.5,Minyak masak 1kg,2022
+W.P. Putrajaya,2.5,Minyak masak 1kg,2022
+Johor,2.95,Gula putih 1kg,2022
+Kedah,2.95,Gula putih 1kg,2022
+Kelantan,2.95,Gula putih 1kg,2022
+Melaka,2.95,Gula putih 1kg,2022
+Negeri Sembilan,2.95,Gula putih 1kg,2022
+Pahang,2.95,Gula putih 1kg,2022
+Perak,2.95,Gula putih 1kg,2022
+Perlis,2.95,Gula putih 1kg,2022
+Pulau Pinang,2.95,Gula putih 1kg,2022
+Sarawak,2.95,Gula putih 1kg,2022
+Selangor,2.95,Gula putih 1kg,2022
+Terengganu,2.95,Gula putih 1kg,2022
+W.P. Kuala Lumpur,2.95,Gula putih 1kg,2022
+W.P. Putrajaya,2.95,Gula putih 1kg,2022
+Johor,18.0,Ikan kembung 1kg,2022
+Kedah,15.0,Ikan kembung 1kg,2022
+Kelantan,18.0,Ikan kembung 1kg,2022
+Melaka,18.0,Ikan kembung 1kg,2022
+Negeri Sembilan,18.0,Ikan kembung 1kg,2022
+Pahang,18.0,Ikan kembung 1kg,2022
+Perak,14.0,Ikan kembung 1kg,2022
+Perlis,16.0,Ikan kembung 1kg,2022
+Pulau Pinang,14.9,Ikan kembung 1kg,2022
+Sabah,12.0,Ikan kembung 1kg,2022
+Sarawak,15.0,Ikan kembung 1kg,2022
+Selangor,20.0,Ikan kembung 1kg,2022
+Terengganu,18.0,Ikan kembung 1kg,2022
+W.P. Kuala Lumpur,19.0,Ikan kembung 1kg,2022
+W.P. Labuan,14.9,Ikan kembung 1kg,2022
+W.P. Putrajaya,20.0,Ikan kembung 1kg,2022
+Johor,5.99,Kangkung 1kg,2022
+Kedah,4.99,Kangkung 1kg,2022
+Kelantan,6.9,Kangkung 1kg,2022
+Melaka,4.99,Kangkung 1kg,2022
+Negeri Sembilan,4.99,Kangkung 1kg,2022
+Pahang,4.99,Kangkung 1kg,2022
+Perak,4.99,Kangkung 1kg,2022
+Perlis,6.0,Kangkung 1kg,2022
+Pulau Pinang,4.99,Kangkung 1kg,2022
+Sabah,5.0,Kangkung 1kg,2022
+Sarawak,5.0,Kangkung 1kg,2022
+Selangor,4.99,Kangkung 1kg,2022
+Terengganu,6.0,Kangkung 1kg,2022
+W.P. Kuala Lumpur,4.99,Kangkung 1kg,2022
+W.P. Labuan,4.0,Kangkung 1kg,2022
+W.P. Putrajaya,5.98,Kangkung 1kg,2022
+Johor,5.99,Tomato 1kg,2022
+Kedah,6.0,Tomato 1kg,2022
+Kelantan,6.0,Tomato 1kg,2022
+Melaka,6.0,Tomato 1kg,2022
+Negeri Sembilan,5.99,Tomato 1kg,2022
+Pahang,5.99,Tomato 1kg,2022
+Perak,5.99,Tomato 1kg,2022
+Perlis,6.9,Tomato 1kg,2022
+Pulau Pinang,6.0,Tomato 1kg,2022
+Sabah,7.0,Tomato 1kg,2022
+Sarawak,8.99,Tomato 1kg,2022
+Selangor,5.99,Tomato 1kg,2022
+Terengganu,6.5,Tomato 1kg,2022
+W.P. Kuala Lumpur,5.99,Tomato 1kg,2022
+W.P. Labuan,8.5,Tomato 1kg,2022
+W.P. Putrajaya,6.495,Tomato 1kg,2022
+Johor,2.99,Bawang besar 1kg,2022
+Kedah,3.0,Bawang besar 1kg,2022
+Kelantan,3.49,Bawang besar 1kg,2022
+Melaka,3.5,Bawang besar 1kg,2022
+Negeri Sembilan,2.9,Bawang besar 1kg,2022
+Pahang,3.5,Bawang besar 1kg,2022
+Perak,3.5,Bawang besar 1kg,2022
+Perlis,3.29,Bawang besar 1kg,2022
+Pulau Pinang,3.5,Bawang besar 1kg,2022
+Sabah,5.2,Bawang besar 1kg,2022
+Sarawak,4.9,Bawang besar 1kg,2022
+Selangor,2.99,Bawang besar 1kg,2022
+Terengganu,3.5,Bawang besar 1kg,2022
+W.P. Kuala Lumpur,2.99,Bawang besar 1kg,2022
+W.P. Labuan,5.0,Bawang besar 1kg,2022
+W.P. Putrajaya,2.99,Bawang besar 1kg,2022
+Johor,16.99,Cili merah 1kg,2022
+Kedah,16.99,Cili merah 1kg,2022
+Kelantan,18.0,Cili merah 1kg,2022
+Melaka,16.0,Cili merah 1kg,2022
+Negeri Sembilan,16.99,Cili merah 1kg,2022
+Pahang,16.0,Cili merah 1kg,2022
+Perak,16.9,Cili merah 1kg,2022
+Perlis,18.0,Cili merah 1kg,2022
+Pulau Pinang,16.99,Cili merah 1kg,2022
+Sabah,19.99,Cili merah 1kg,2022
+Sarawak,21.99,Cili merah 1kg,2022
+Selangor,16.9,Cili merah 1kg,2022
+Terengganu,16.9,Cili merah 1kg,2022
+W.P. Kuala Lumpur,16.9,Cili merah 1kg,2022
+W.P. Labuan,25.5,Cili merah 1kg,2022
+W.P. Putrajaya,16.99,Cili merah 1kg,2022
+Johor,8.99,Ayam bersih 1kg,2026
+Kedah,9.0,Ayam bersih 1kg,2026
+Kelantan,9.2,Ayam bersih 1kg,2026
+Melaka,8.99,Ayam bersih 1kg,2026
+Negeri Sembilan,9.1,Ayam bersih 1kg,2026
+Pahang,9.29,Ayam bersih 1kg,2026
+Perak,8.99,Ayam bersih 1kg,2026
+Perlis,9.1,Ayam bersih 1kg,2026
+Pulau Pinang,9.3,Ayam bersih 1kg,2026
+Sabah,12.9,Ayam bersih 1kg,2026
+Sarawak,10.8,Ayam bersih 1kg,2026
+Selangor,9.29,Ayam bersih 1kg,2026
+Terengganu,9.6,Ayam bersih 1kg,2026
+W.P. Kuala Lumpur,9.6,Ayam bersih 1kg,2026
+W.P. Labuan,12.5,Ayam bersih 1kg,2026
+W.P. Putrajaya,9.39,Ayam bersih 1kg,2026
+Johor,14.3,Telur ayam Gred A (30 biji),2026
+Kedah,14.5,Telur ayam Gred A (30 biji),2026
+Kelantan,14.8,Telur ayam Gred A (30 biji),2026
+Melaka,14.5,Telur ayam Gred A (30 biji),2026
+Negeri Sembilan,14.7,Telur ayam Gred A (30 biji),2026
+Pahang,14.4,Telur ayam Gred A (30 biji),2026
+Perak,14.4,Telur ayam Gred A (30 biji),2026
+Perlis,14.4,Telur ayam Gred A (30 biji),2026
+Pulau Pinang,15.0,Telur ayam Gred A (30 biji),2026
+Sabah,16.2,Telur ayam Gred A (30 biji),2026
+Sarawak,16.9,Telur ayam Gred A (30 biji),2026
+Selangor,14.69,Telur ayam Gred A (30 biji),2026
+Terengganu,14.9,Telur ayam Gred A (30 biji),2026
+W.P. Kuala Lumpur,14.59,Telur ayam Gred A (30 biji),2026
+W.P. Labuan,18.0,Telur ayam Gred A (30 biji),2026
+W.P. Putrajaya,14.69,Telur ayam Gred A (30 biji),2026
+Johor,36.39,Beras 10kg,2026
+Kedah,34.9,Beras 10kg,2026
+Kelantan,36.9,Beras 10kg,2026
+Melaka,36.85,Beras 10kg,2026
+Negeri Sembilan,36.545,Beras 10kg,2026
+Pahang,36.5,Beras 10kg,2026
+Perak,35.49,Beras 10kg,2026
+Perlis,35.5,Beras 10kg,2026
+Pulau Pinang,34.99,Beras 10kg,2026
+Selangor,36.99,Beras 10kg,2026
+Terengganu,36.25,Beras 10kg,2026
+W.P. Kuala Lumpur,37.49,Beras 10kg,2026
+W.P. Putrajaya,37.99,Beras 10kg,2026
+Johor,2.5,Minyak masak 1kg,2026
+Kedah,2.5,Minyak masak 1kg,2026
+Kelantan,2.5,Minyak masak 1kg,2026
+Melaka,2.5,Minyak masak 1kg,2026
+Negeri Sembilan,2.5,Minyak masak 1kg,2026
+Pahang,2.5,Minyak masak 1kg,2026
+Perak,2.5,Minyak masak 1kg,2026
+Perlis,2.5,Minyak masak 1kg,2026
+Pulau Pinang,2.5,Minyak masak 1kg,2026
+Sabah,2.5,Minyak masak 1kg,2026
+Sarawak,2.5,Minyak masak 1kg,2026
+Selangor,2.5,Minyak masak 1kg,2026
+Terengganu,2.5,Minyak masak 1kg,2026
+W.P. Kuala Lumpur,2.5,Minyak masak 1kg,2026
+W.P. Labuan,2.5,Minyak masak 1kg,2026
+W.P. Putrajaya,2.5,Minyak masak 1kg,2026
+Johor,2.95,Gula putih 1kg,2026
+Kedah,2.95,Gula putih 1kg,2026
+Kelantan,2.95,Gula putih 1kg,2026
+Melaka,2.95,Gula putih 1kg,2026
+Negeri Sembilan,2.95,Gula putih 1kg,2026
+Pahang,2.95,Gula putih 1kg,2026
+Perak,2.95,Gula putih 1kg,2026
+Perlis,2.95,Gula putih 1kg,2026
+Pulau Pinang,2.95,Gula putih 1kg,2026
+Sabah,2.95,Gula putih 1kg,2026
+Sarawak,2.95,Gula putih 1kg,2026
+Selangor,2.95,Gula putih 1kg,2026
+Terengganu,2.95,Gula putih 1kg,2026
+W.P. Kuala Lumpur,2.95,Gula putih 1kg,2026
+W.P. Putrajaya,2.95,Gula putih 1kg,2026
+Johor,19.5,Ikan kembung 1kg,2026
+Kedah,14.0,Ikan kembung 1kg,2026
+Kelantan,17.9,Ikan kembung 1kg,2026
+Melaka,18.99,Ikan kembung 1kg,2026
+Negeri Sembilan,19.9,Ikan kembung 1kg,2026
+Pahang,19.99,Ikan kembung 1kg,2026
+Perak,14.0,Ikan kembung 1kg,2026
+Perlis,14.5,Ikan kembung 1kg,2026
+Pulau Pinang,15.9,Ikan kembung 1kg,2026
+Sabah,10.0,Ikan kembung 1kg,2026
+Sarawak,11.0,Ikan kembung 1kg,2026
+Selangor,20.0,Ikan kembung 1kg,2026
+Terengganu,18.0,Ikan kembung 1kg,2026
+W.P. Kuala Lumpur,20.0,Ikan kembung 1kg,2026
+W.P. Labuan,13.7,Ikan kembung 1kg,2026
+W.P. Putrajaya,21.9,Ikan kembung 1kg,2026
+Johor,5.39,Kangkung 1kg,2026
+Kedah,4.39,Kangkung 1kg,2026
+Kelantan,6.99,Kangkung 1kg,2026
+Melaka,4.59,Kangkung 1kg,2026
+Negeri Sembilan,4.9,Kangkung 1kg,2026
+Pahang,4.98,Kangkung 1kg,2026
+Perak,4.99,Kangkung 1kg,2026
+Perlis,6.0,Kangkung 1kg,2026
+Pulau Pinang,4.99,Kangkung 1kg,2026
+Sabah,5.5,Kangkung 1kg,2026
+Sarawak,5.9,Kangkung 1kg,2026
+Selangor,4.99,Kangkung 1kg,2026
+Terengganu,6.0,Kangkung 1kg,2026
+W.P. Kuala Lumpur,5.0,Kangkung 1kg,2026
+W.P. Labuan,5.0,Kangkung 1kg,2026
+W.P. Putrajaya,6.76,Kangkung 1kg,2026
+Johor,8.9,Tomato 1kg,2026
+Kedah,9.0,Tomato 1kg,2026
+Kelantan,9.0,Tomato 1kg,2026
+Melaka,8.99,Tomato 1kg,2026
+Negeri Sembilan,8.9,Tomato 1kg,2026
+Pahang,9.0,Tomato 1kg,2026
+Perak,8.99,Tomato 1kg,2026
+Perlis,10.0,Tomato 1kg,2026
+Pulau Pinang,8.99,Tomato 1kg,2026
+Sabah,8.0,Tomato 1kg,2026
+Sarawak,11.99,Tomato 1kg,2026
+Selangor,8.99,Tomato 1kg,2026
+Terengganu,9.69,Tomato 1kg,2026
+W.P. Kuala Lumpur,8.99,Tomato 1kg,2026
+W.P. Labuan,9.25,Tomato 1kg,2026
+W.P. Putrajaya,9.0,Tomato 1kg,2026
+Johor,2.99,Bawang besar 1kg,2026
+Kedah,3.0,Bawang besar 1kg,2026
+Kelantan,2.99,Bawang besar 1kg,2026
+Melaka,2.99,Bawang besar 1kg,2026
+Negeri Sembilan,3.29,Bawang besar 1kg,2026
+Pahang,2.99,Bawang besar 1kg,2026
+Perak,2.99,Bawang besar 1kg,2026
+Perlis,3.0,Bawang besar 1kg,2026
+Pulau Pinang,3.2,Bawang besar 1kg,2026
+Sabah,4.39,Bawang besar 1kg,2026
+Sarawak,3.99,Bawang besar 1kg,2026
+Selangor,2.99,Bawang besar 1kg,2026
+Terengganu,3.0,Bawang besar 1kg,2026
+W.P. Kuala Lumpur,3.19,Bawang besar 1kg,2026
+W.P. Labuan,4.5,Bawang besar 1kg,2026
+W.P. Putrajaya,3.19,Bawang besar 1kg,2026
+Johor,11.99,Cili merah 1kg,2026
+Kedah,12.5,Cili merah 1kg,2026
+Kelantan,11.99,Cili merah 1kg,2026
+Melaka,10.9,Cili merah 1kg,2026
+Negeri Sembilan,12.0,Cili merah 1kg,2026
+Pahang,12.5,Cili merah 1kg,2026
+Perak,12.0,Cili merah 1kg,2026
+Perlis,14.2,Cili merah 1kg,2026
+Pulau Pinang,11.99,Cili merah 1kg,2026
+Sabah,17.5,Cili merah 1kg,2026
+Sarawak,20.0,Cili merah 1kg,2026
+Selangor,11.99,Cili merah 1kg,2026
+Terengganu,10.99,Cili merah 1kg,2026
+W.P. Kuala Lumpur,13.8,Cili merah 1kg,2026
+W.P. Putrajaya,12.2,Cili merah 1kg,2026
