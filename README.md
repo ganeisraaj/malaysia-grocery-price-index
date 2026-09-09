@@ -79,22 +79,3 @@ East Malaysia (Sabah, Sarawak, Labuan) excluded due to incomplete beras data in 
 ## Software
 
 Python 3.12 · `pandas` · `numpy` · `matplotlib` · `streamlit`
-
----
-
-## Repository Structure
-
-malaysia-grocery-price-index/
-├── data/ # Raw data (not tracked by git)
-├── notebooks/
-│ └── 01_analysis.ipynb # Full analysis notebook
-├── streamlit/
-│ ├── app.py # Streamlit app
-│ ├── basket_aggregated.csv # Pre-aggregated data (309 rows)
-│ ├── lookup_item.csv # Item code lookup
-│ ├── lookup_premise.csv # Premise code lookup
-│ └── requirements.txt
-├── .gitignore
-└── README.md
-
-
